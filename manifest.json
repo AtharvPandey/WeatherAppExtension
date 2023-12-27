@@ -1,0 +1,27 @@
+{
+    "name": "Weather App",
+    "manifest_version": 3,
+    "version": "2.0",
+    "description": "A weather extension for Google Chrome",
+    "icons": {
+        "128": "img/favicon.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "img/favicon.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "geolocation"
+    ],
+    "background": {
+        "service_worker":"background.js"
+    }
+}
+
+
+
+
+
